@@ -21,6 +21,7 @@ p {
     font-size: 26px;
     &:hover {
       color: #d70813;
+      text-decoration: none;
     }
   }
   figcaption {
@@ -28,7 +29,8 @@ p {
     margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.05);
   }
-  .title-price, .title-why {
+  .title-price,
+  .title-why {
     color: #d70813;
     font-size: 18px;
     font-weight: 600;
@@ -91,4 +93,37 @@ p {
 }
 img {
   width: 100%;
+}
+.phone {
+  position: fixed;
+  padding: 5px;
+  border-radius: 40px;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  border: 2px solid #d70813;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  .icon-phone {
+    height: 30px;
+    width: 30px;
+  }
+  span {
+    font-size: 18px;
+    color: #d70813;
+    font-weight: bold;
+  }
+  &:hover {
+    color: #d70813;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .phone {
+    & > span {
+      display: none;
+    }
+  }
 }
