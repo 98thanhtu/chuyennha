@@ -1,0 +1,94 @@
+.header {
+  margin: 50px 0;
+}
+.heading {
+  color: #d70813;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+p {
+  font-family: sans-serif;
+}
+.box-heading {
+  margin-top: 50px;
+  li {
+    line-height: 25px;
+  }
+  .link-heading {
+    color: #d70813;
+    font-weight: 700;
+    font-size: 26px;
+    &:hover {
+      color: #d70813;
+    }
+  }
+  figcaption {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .title-price, .title-why {
+    color: #d70813;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+  }
+  table {
+    th {
+      padding: 10px;
+      text-align: center;
+      background-color: #d9edf7;
+    }
+    td {
+      padding: 5px;
+      text-align: center;
+    }
+  }
+  .box-reason {
+    .content-reason {
+      display: flex;
+      gap: 15px;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      .img-box {
+        display: flex;
+        justify-content: center;
+      }
+      .title-reason {
+        text-align: center;
+        color: #d70813;
+        font-weight: 600;
+        font-size: 16px;
+      }
+      .desc-reason {
+        text-align: center;
+      }
+    }
+    .header-reason {
+      color: #d70813;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  .box-process {
+    .title-step {
+      color: #d70813;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .box-faqs {
+    .title-faqs {
+      color: #d70813;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}
+img {
+  width: 100%;
+}
