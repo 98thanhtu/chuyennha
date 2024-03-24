@@ -10,7 +10,7 @@
 p {
   font-family: sans-serif;
 }
-/* .box-heading {
+.box-heading {
   margin-top: 50px;
   li {
     line-height: 25px;
@@ -88,7 +88,7 @@ p {
       font-size: 18px;
     }
   }
-} */
+}
 img {
   width: 100%;
 }
