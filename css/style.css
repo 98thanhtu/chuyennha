@@ -127,19 +127,19 @@ img {
   display: flex;
   gap: 5px;
   align-items: center;
-  .icon-phone {
-    height: 30px;
-    width: 30px;
-  }
-  span {
-    font-size: 18px;
-    color: #d70813;
-    font-weight: bold;
-  }
   &:hover {
     color: #d70813;
     text-decoration: none;
   }
+}
+.icon-phone {
+  height: 30px;
+  width: 30px;
+}
+.phone-number {
+  font-size: 18px;
+  color: #d70813;
+  font-weight: bold;
 }
 .footer {
   display: flex;
