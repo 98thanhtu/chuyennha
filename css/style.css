@@ -137,6 +137,36 @@ img {
   max-height: 30px;
   width: 30px;
   max-width: 30px;
+  animation: 0.8s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;
+}
+@keyframes ring-alo-circle-img-anim {
+  0% {
+      transform: rotate(0deg) scale(1) skew(1deg)
+  }
+
+  10% {
+      transform: rotate(-25deg) scale(1) skew(1deg)
+  }
+
+  20% {
+      transform: rotate(25deg) scale(1) skew(1deg)
+  }
+
+  30% {
+      transform: rotate(-25deg) scale(1) skew(1deg)
+  }
+
+  40% {
+      transform: rotate(25deg) scale(1) skew(1deg)
+  }
+
+  50% {
+      transform: rotate(0deg) scale(1) skew(1deg)
+  }
+
+  100% {
+      transform: rotate(0deg) scale(1) skew(1deg)
+  }
 }
 .phone-number {
   font-size: 18px;
